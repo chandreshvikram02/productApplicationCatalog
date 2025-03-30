@@ -1,0 +1,22 @@
+#database specific configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservicesdb
+    username: root	
+    password: root
+
+#jpa specific configuration
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update		
+        
+server:
+  port: 5555
+  
+
+ 
+        
+message: welcome to production
+databaseName: couchbase        
+ 
